@@ -1,1 +1,4 @@
 # MTG-Matchup-Analyzer
+The main method of MatchupApp prompts for any number of new matches to be added to a gauntlet, taking input of player deck, opponent deck, and the results of games 1, 2, and 3 separately. This new data is added to an array of existing match data that is imported from a text file upon startup of the program. Upon terminated, the text file is updated with the current array data. If the data file contains no data when the program is started, a prompt will require the creation of a gauntlet by entering all desired deck names before any match data can be entered.
+
+Analysis or raw data is not diplayed during the runtime of the program. Instead, a visual representation of data analysis is stored in additional text file. Anaylsis is diplayed from the perspective of each individual deck in a gauntlet, including its game and match win percentage, along with total games played, of each other respective deck.
